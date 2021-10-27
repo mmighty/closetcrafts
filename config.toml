@@ -2,7 +2,7 @@ baseURL = 'https://hallclosetcrafts.com/'
 languageCode = 'en-us'
 title = 'Hall Closet Crafts'
 theme = "LoveIt"
-
+enableRobotsTXT = true
 
 [params]
   version = "0.2.X"
