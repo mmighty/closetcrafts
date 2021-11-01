@@ -6,6 +6,10 @@ enableRobotsTXT = true
 
 [params]
   version = "0.2.X"
+  # site description
+  description = "Hall Closet Crafts"
+  # site keywords
+  keywords = ["Crafts", "Etsy", "Hall", "Closet", "Hall Closet", "Hall Closet Crafts"]
   defaultTheme = "auto"
   dateFormat = "2006-01-02"
   images = ["/logo.png"]
@@ -40,7 +44,7 @@ enableRobotsTXT = true
     # whether to show copyright info
     copyright = true
     # whether to show the author
-    #author = true
+    author = false
     # site creation time
     since = 2021
     # ICP info only in China (HTML format is supported)
@@ -74,3 +78,15 @@ enableRobotsTXT = true
     Etsy = "HallClosetCrafts"
     Instagram = "HallClosetCrafts"
     Facebook = "HallClosetCrafts"
+    
+# Author config
+[author]
+  name = "Rachael"
+  email = ""
+  link = ""
+
+# Sitemap config
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
